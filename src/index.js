@@ -15,15 +15,19 @@ const App = () => {
                 Enter name: 
             </label>
             <input id="name"type="text"/>
+
             <button>
                 Submit
             </button>
+
             <button style={{backgroundColor:'green', color: 'white'}}>
                 {buttonText}
             </button>
+
             <button>
                 {getButtonText()}
             </button>
+            
         </div>
     )
 };
